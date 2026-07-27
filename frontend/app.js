@@ -8,9 +8,7 @@
  * backend somewhere other than your own machine (Day 3).
  */
 
-// TODO (Day 3 deployment step): replace this with your deployed backend URL,
-// e.g. "https://your-backend.azurewebsites.net" — then redeploy the frontend.
-const BACKEND_URL = "http://localhost:5000";
+const BACKEND_URL = "https://1781-2022-dfss-backend-2026.azurewebsites.net";
 
 const statusText = document.getElementById("status-text");
 const uploadForm = document.getElementById("upload-form");
