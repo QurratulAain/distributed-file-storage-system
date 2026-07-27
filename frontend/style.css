@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+header {
+  background: #1e293b;
+  color: white;
+  padding: 24px 32px;
+}
+
+header h1 {
+  margin: 0 0 4px 0;
+  font-size: 24px;
+}
+
+.subtitle {
+  margin: 0;
+  color: #cbd5e1;
+  font-size: 14px;
+}
+
+main {
+  max-width: 800px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px 24px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #1e293b;
+}
+
+#status-text {
+  font-weight: 600;
+}
+
+.status-ok {
+  color: #16a34a;
+}
+
+.status-bad {
+  color: #dc2626;
+}
+
+form#upload-form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+input[type="text"],
+input[type="file"] {
+  padding: 8px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 9px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+#refresh-btn {
+  margin-bottom: 12px;
+  background: #475569;
+}
+
+#refresh-btn:hover {
+  background: #334155;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 1px solid #e2e8f0;
+  font-size: 14px;
+}
+
+th {
+  background: #f1f5f9;
+}
+
+#upload-message {
+  font-size: 14px;
+  margin-top: 10px;
+}
