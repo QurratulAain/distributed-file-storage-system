@@ -1,12 +1,3 @@
-/*
- * Frontend logic — plain JS, no build step.
- * Talks ONLY to the backend's REST API (never directly to the storage
- * service). This mirrors the architecture: the frontend doesn't know
- * or care that a separate storage service even exists.
- *
- * IMPORTANT: this is the one line you change when you deploy the
- * backend somewhere other than your own machine (Day 3).
- */
 
 const BACKEND_URL = "https://1781-2022-dfss-backend-2026.azurewebsites.net";
 
